@@ -1,0 +1,87 @@
+#todolist {
+  /* display: flex; */
+  justify-content: flex-start;
+}
+
+#todolist #tasks {
+  min-width: 370px;
+  width: 370px;
+  background-color: lightgreen;
+  padding: 25px 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  min-height: 200px;
+  height: auto;
+}
+
+#todolist #tasks input {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+}
+
+#todolist #tasks button {
+  background-color: #093;
+  padding: 4px 12px;
+  border-color: #00b300;
+  color: #ccc;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#todolist #tasks ul {
+  padding-left: 20px;
+}
+
+#todolist #tasks ul li {
+  margin: 5px;
+  padding: 5px 15px;
+  list-style-type: circle;
+}
+
+#todolist #tasks .close {
+  cursor: pointer;
+}
+
+#todolist #tasks .close:hover {
+  background-color: darksalmon;
+}
+
+#todolist #done {
+  min-width: 370px;
+  width: 370px;
+  background-color: darksalmon;
+  padding: 25px 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  min-height: 200px;
+  height: auto;
+}
+
+#todolist #done ul {
+  padding-left: 15px;
+}
+
+#todolist #done ul li {
+  text-decoration: line-through;
+}
+
+#colorButton {
+  margin: 10px;;
+}
+#colorButton1{
+  margin: 10px;;
+}
+#chet{
+  display: flex;
+}
+
+#add{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center
+}
+
+body {
+  background-color: #EAE7DC;
+}

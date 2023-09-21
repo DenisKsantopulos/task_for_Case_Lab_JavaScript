@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div id="todolist">
+        <div id="tasks">
+          <input type="text" id="input" autocomplete="off" placeholder="Задача" required>
+          <button id="button">Добавить задачу</button>
+          <div id="chet">
+            <button id="colorButton">Выделить четные</button>
+            <button id="colorButton1">Выделить нечетные</button>
+          </div>
+          <div id="chet">
+            <button onclick="removeFirst()" id="del1">Удалить первый элемент</button>
+            <button onclick="removeLast()" id="del2">Удалить последний элемент</button>
+          </div>
+          <p id="add">Чтобы добавить задачу в "Выполненное", просто нажмите на нее</p>
+          <ul id="ul">
+          </ul>
+        </div>
+        <div id="done">
+          <p id="ul_done"></p>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
